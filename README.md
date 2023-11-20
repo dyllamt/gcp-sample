@@ -1,6 +1,7 @@
 # gcp-sample
 Terraform modules for a starter GCP project and cluster.
 
+![](resource-map.png)
 
 ## Initialization
 After initializing the project, you'll want to move the state into the bucket.
@@ -16,8 +17,7 @@ terraform {
 }
 ```
 
-
-## Usage
+## Maintaining
 
 Prerequisites:
 - Login to google cloud `gcloud auth login`
